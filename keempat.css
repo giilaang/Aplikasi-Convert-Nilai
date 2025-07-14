@@ -112,7 +112,7 @@ footer {
     
 
     body {
-        padding: 60px;
+        padding: 45px;
     }
 
     .wrapper p {
@@ -124,6 +124,7 @@ footer {
     .box input {
         font-size: 15px;
         font-family: 'poppins';
+        height: 45px;
     }
 
     button {
