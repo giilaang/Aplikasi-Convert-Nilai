@@ -83,6 +83,7 @@ footer {
     margin-top: 180px;
     border-radius: 5px;
     cursor: none;
+    border-top: 2px solid white;
 }
 
  .swal-custom {
@@ -109,11 +110,11 @@ footer {
     
 
     body {
-        padding: 50px;
+        padding: 40px;
     }
 
     .wrapper p {
-        font-size: 25px;
+        font-size: 30px;
         font-family: 'poppins';
 
     }
