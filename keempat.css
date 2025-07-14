@@ -130,22 +130,22 @@ footer {
 
 @media (max-width: 480px) {
    .swal-custom {
-  width: 255px !important;
+  width: 265px !important;
   padding: 12px !important;
-  font-size: 11px !important;
-}
-
-.swal-custom .swal2-title {
   font-size: 13px !important;
 }
 
+.swal-custom .swal2-title {
+  font-size: 15px !important;
+}
+
 .swal-custom .swal2-content {
-  font-size: 7px !important;
+  font-size: 13px !important;
 }
 
 .swal-custom .swal2-confirm {
-  font-size: 12px !important;
-  padding: 6px 20px !important;
+  font-size: 13px !important;
+  padding: 10px 20px !important;
 }
 }
 
