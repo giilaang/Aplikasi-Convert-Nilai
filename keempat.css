@@ -111,19 +111,19 @@ footer {
     }
 
     .wrapper p {
-        font-size: 20px;
+        font-size: 25px;
     }
 
     .box input {
-        font-size: 12px;
+        font-size: 15px;
     }
 
     button {
-        font-size: 12px;
+        font-size: 15px;
     }
 
     footer {
-        font-size: 11.5px;
+        font-size: 15px;
         color: #5a5a5a;
     }
 }
@@ -132,20 +132,20 @@ footer {
    .swal-custom {
   width: 265px !important;
   padding: 12px !important;
-  font-size: 13px !important;
-}
-
-.swal-custom .swal2-title {
   font-size: 15px !important;
 }
 
+.swal-custom .swal2-title {
+  font-size: 18px !important;
+}
+
 .swal-custom .swal2-content {
-  font-size: 13px !important;
+  font-size: 15px !important;
 }
 
 .swal-custom .swal2-confirm {
-  font-size: 13px !important;
-  padding: 10px 20px !important;
+  font-size: 15px !important;
+  padding: 15px 25px !important;
 }
 }
 
