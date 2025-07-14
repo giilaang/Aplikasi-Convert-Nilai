@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="keempat.css">
+</head>
+<body>
+    <div class="wrapper">
+        <p>Convert Nilai</p>
+        <div class="box">
+            <input type="number" id="nilai" placeholder="Masukkan nilai..">
+        </div>
+
+        <button onclick="convert()">Convert</button>
+        <button type="reset" onclick="reset()" class="btn">Reset</button>
+
+        <div class="footer">
+             <footer class="sticky-footer bg-white mt-3">
+                <div class="container my-auto">
+                    <div class="copyright text-center my-auto">
+                        <span>Copyright &copy; By Gilang Ramadhan || Sistem Informasi</span>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+    </div>
+
+        
+    <script>
+        function convert(){
+            var nilai = parseInt(document.getElementById('nilai').value.toLowerCase().trim());
+           
+            if(isNaN(nilai)) {
+                Swal.fire({
+                title: "Warning!",
+                text: "Anda Belum memasukkan nilai!",
+                icon: "warning",
+                 customClass: {
+                 popup: 'swal-custom'
+                }
+                });
+
+            } else if (nilai >= 101) {
+                Swal.fire({
+                title: "Nilai anda: " + nilai,
+                text: "Nilai melebihi batas!",
+                icon: "error",
+               customClass: {
+                popup: 'swal-custom'
+                }
+                });
+
+            } else if (nilai >= 91 && nilai <= 100){
+                Swal.fire({
+                title: "Nilai anda: " + nilai,
+                text: "MUTU: A",
+                 customClass: {
+                 popup: 'swal-custom'
+                }
+                });
+
+            } else if (nilai >= 86 && nilai <= 90){
+                Swal.fire({
+                title: "Nilai anda: " + nilai,
+                text: "MUTU: AB",
+                customClass: {
+                popup: 'swal-custom'
+                }
+                });
+            } else if (nilai >= 76 && nilai <= 85){
+                 Swal.fire({
+                title: "Nilai anda: " + nilai,
+                text: "MUTU: B",
+                customClass: {
+                popup: 'swal-custom'
+                }
+                });
+
+            } else if (nilai >= 66 && nilai <= 75){
+                   Swal.fire({
+                title: "Nilai anda: " + nilai,
+                text: "MUTU: C",
+                customClass: {
+                 popup: 'swal-custom'
+                 }
+                });
+
+            } else if (nilai >= 56 && nilai <= 65){
+                   Swal.fire({
+                title: "Nilai anda: " + nilai,
+                text: "MUTU: D",
+                 customClass: {
+                 popup: 'swal-custom'
+                }
+                });
+
+            } else if (nilai >= 0 && nilai <= 55) {
+                   Swal.fire({
+                title: "Nilai anda: " + nilai,
+                text: "MUTU: E",
+                customClass: {
+                popup: 'swal-custom'
+                 }
+                });
+            } else {
+                 Swal.fire({
+                title: "Nilai anda " + nilai,
+                text: "Nilai tidak valid!",
+                customClass: {
+                popup: 'swal-custom'
+                 }
+                });
+            }
+        }
+
+        function reset(){
+            location.reload()
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    
+</body>
+</html>

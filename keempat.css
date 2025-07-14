@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'poppins', sans-serif;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.wrapper {
+    background: rgb(0, 174, 255);
+    padding: 20px;
+    border-radius: 15px;
+    width: 450px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.wrapper p {
+    font-size: 27px;
+    font-weight: bolder;
+    font-family: 'poppins';
+    color: rgb(255, 255, 255);
+    margin-bottom: 30px;
+    border-bottom: 2px solid white;
+}
+
+.box input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 15px;
+    font-family: 'poppins';
+    text-transform:capitalize;
+}
+
+
+button {
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'poppins', sans-serif;
+    border: none;
+    float: right;
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    color: rgb(23, 23, 23);
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+
+.btn {
+    margin-right: 5px;
+    background-color: white;
+    color: black;
+}
+
+.btn:hover{
+    background-color: rgb(255, 27, 27);
+}
+
+footer {
+    text-align: center;
+    background-color: white;
+    font-family: 'poppins', sans-serif;
+    font-size: 12px;
+    padding: 15px;
+    margin-top: 60px;
+    border-radius: 5px;
+    cursor: none;
+}
+
+ .swal-custom {
+  width: 420px !important;
+  padding: 20px !important;
+  font-size: 14px !important;
+}
+
+.swal-custom .swal2-title {
+  font-size: 18px !important;
+}
+
+.swal-custom .swal2-content {
+  font-size: 14px !important;
+}
+
+.swal-custom .swal2-confirm {
+  font-size: 14px !important;
+  padding: 10px 20px !important;
+}
+
+/* Tambahan: Media Query untuk layar HP kecil */
+@media (max-width: 480px) {
+    
+
+    body {
+        padding: 30px;
+    }
+
+    .wrapper p {
+        font-size: 16px;
+    }
+
+    .box input {
+        font-size: 8px;
+    }
+
+    button {
+        font-size: 8px;
+    }
+
+    footer {
+        font-size: 7px;
+        color: #5a5a5a;
+    }
+}
+
+@media (max-width: 480px) {
+   .swal-custom {
+  width: 155px !important;
+  padding: 12px !important;
+  font-size: 7px !important;
+}
+
+.swal-custom .swal2-title {
+  font-size: 10px !important;
+}
+
+.swal-custom .swal2-content {
+  font-size: 7px !important;
+}
+
+.swal-custom .swal2-confirm {
+  font-size: 9px !important;
+  padding: 6px 20px !important;
+}
+}
+
