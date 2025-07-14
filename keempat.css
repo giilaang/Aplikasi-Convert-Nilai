@@ -78,7 +78,7 @@ footer {
     font-family: 'poppins', sans-serif;
     font-size: 12px;
     padding: 15px;
-    margin-top: 60px;
+    margin-top: 160px;
     border-radius: 5px;
     cursor: none;
 }
@@ -130,9 +130,9 @@ footer {
 
 @media (max-width: 480px) {
    .swal-custom {
-  width: 265px !important;
+  width: 240px !important;
   padding: 12px !important;
-  font-size: 15px !important;
+  font-size: 14px !important;
 }
 
 .swal-custom .swal2-title {
@@ -140,12 +140,12 @@ footer {
 }
 
 .swal-custom .swal2-content {
-  font-size: 15px !important;
+  font-size: 14px !important;
 }
 
 .swal-custom .swal2-confirm {
-  font-size: 15px !important;
-  padding: 15px 25px !important;
+  font-size: 14px !important;
+  padding: 13px 23px !important;
 }
 }
 
